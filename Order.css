@@ -1,0 +1,14 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: darkolivegreen;
+    font-size: 24px;
+    font-weight: bold;
+}
