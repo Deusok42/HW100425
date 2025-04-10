@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>заказ_яндекс.ru</title>
+    <link rel="stylesheet" href="Order.css">
+</head>
+<body>
+    <form action="Index2.html">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="user_name">
+        <br>
+        <label for="email">Электронная почта:</label>
+        <input type="email" id="email" name="user-email">
+        <br>
+        <label for="date">Выберите страну:</label>
+        <select name="user_country" id="country">
+            <option value="RU">Россия</option>
+            <option value="BY">Беларусь</option>
+            <option value="KZ">Казахстан</option>
+            <option value="KG">Кыргызстан</option>
+            <option value="TD">Таджикистан</option>
+            <option value="KZ">Кавказ(Грузия, Армения, Азербайджан)</option>
+        </select>
+        <hr>
+        <label>
+            <input type="radio" name="gender" value="male"> Доставка
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female"> ПВЗ
+        </label>
+        <br>
+        <label for="card">Номер карты)</label>
+        <input type="text" id="card" name="user_card">
+        <br>
+        <!--Очистка-->
+        <input type="reset" value="Сбросить">
+        <hr>
+        <!--Поле отправки формы-->
+        <input type="submit" value="Отправить">
+</form>
+<!--Ссылка-->
+<a href="Index.html">Перейти обратно</a>
+</body>
+</html>
